@@ -11,7 +11,12 @@ namespace ProjetoHospital.Models
         public string Nome { get; set; }
         public string CRM { get; set; }
         public string Telefone { get; set; }
+        public int IdEndereco { get; set; }
+        public Endereco Endereco { get; set; }
         public int Atendimentos { get; set; }
         public int IdEspecialidade { get; set; }
+        public Especialidade Especialidade { get; set; }
+        public virtual IList<Convenio> Convenios { get; set; }
+        public virtual IList<Atendimento> ListaDeAtendimentos { get; set; }
     }
 }

@@ -13,5 +13,6 @@ namespace ProjetoHospital.Models
         public virtual IList<Paciente> Pacientes { get; set; }
         public virtual IList<Consulta> Consultas { get; set; }
         public virtual IList<ExamePlano> ExamePlanos { get; set; }
+        public virtual IList<Convenio> Convenios { get; set; }
     }
 }

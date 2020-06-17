@@ -10,5 +10,6 @@ namespace ProjetoHospital.Models
         public int Id { get; set; }
         public string Sigla { get; set; }
         public string Nome { get; set; }
+        public virtual IList<Endereco> Enderecos { get; set; }
     }
 }

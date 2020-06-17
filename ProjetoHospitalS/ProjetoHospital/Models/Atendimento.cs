@@ -13,7 +13,10 @@ namespace ProjetoHospital.Models
         public bool AtendePlano { get; set; }
         public bool AtendeDia { get; set; }
         public int IdDiaSemana { get; set; }
+        public DiaSemana DiaSemana { get; set; }
         public int IdMedico { get; set; }
+        public Medico Medico { get; set; }
+        public Consulta Consulta { get; set; }
 
     }
 }

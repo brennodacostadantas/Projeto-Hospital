@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aline\\source\\repos\\ProjetoHospitalS\\ProjetoHospital\\ProjetoHospital.csproj": {}
+    "C:\\Users\\Aline\\Documents\\GitHub\\Projeto-Hospital\\ProjetoHospitalS\\ProjetoHospital\\ProjetoHospital.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aline\\source\\repos\\ProjetoHospitalS\\ProjetoHospital\\ProjetoHospital.csproj": {
+    "C:\\Users\\Aline\\Documents\\GitHub\\Projeto-Hospital\\ProjetoHospitalS\\ProjetoHospital\\ProjetoHospital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aline\\source\\repos\\ProjetoHospitalS\\ProjetoHospital\\ProjetoHospital.csproj",
+        "projectUniqueName": "C:\\Users\\Aline\\Documents\\GitHub\\Projeto-Hospital\\ProjetoHospitalS\\ProjetoHospital\\ProjetoHospital.csproj",
         "projectName": "ProjetoHospital",
-        "projectPath": "C:\\Users\\Aline\\source\\repos\\ProjetoHospitalS\\ProjetoHospital\\ProjetoHospital.csproj",
+        "projectPath": "C:\\Users\\Aline\\Documents\\GitHub\\Projeto-Hospital\\ProjetoHospitalS\\ProjetoHospital\\ProjetoHospital.csproj",
         "packagesPath": "C:\\Users\\Aline\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aline\\source\\repos\\ProjetoHospitalS\\ProjetoHospital\\obj\\",
+        "outputPath": "C:\\Users\\Aline\\Documents\\GitHub\\Projeto-Hospital\\ProjetoHospitalS\\ProjetoHospital\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aline\\AppData\\Roaming\\NuGet\\NuGet.Config",

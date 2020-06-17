@@ -33,3 +33,12 @@ C:\Users\Aline\source\repos\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreap
 C:\Users\Aline\source\repos\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.pdb
 C:\Users\Aline\source\repos\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.genruntimeconfig.cache
 C:\Users\Aline\source\repos\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.csproj.CopyComplete
+C:\Users\Aline\Documents\GitHub\Projeto-Hospital\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.csprojAssemblyReference.cache
+C:\Users\Aline\Documents\GitHub\Projeto-Hospital\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.csproj.CoreCompileInputs.cache
+C:\Users\Aline\Documents\GitHub\Projeto-Hospital\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aline\Documents\GitHub\Projeto-Hospital\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.RazorAssemblyInfo.cache
+C:\Users\Aline\Documents\GitHub\Projeto-Hospital\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.RazorAssemblyInfo.cs
+C:\Users\Aline\Documents\GitHub\Projeto-Hospital\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.AssemblyInfoInputs.cache
+C:\Users\Aline\Documents\GitHub\Projeto-Hospital\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.AssemblyInfo.cs
+C:\Users\Aline\Documents\GitHub\Projeto-Hospital\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.dll
+C:\Users\Aline\Documents\GitHub\Projeto-Hospital\ProjetoHospitalS\ProjetoHospital\obj\Debug\netcoreapp3.1\ProjetoHospital.pdb

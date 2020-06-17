@@ -12,5 +12,8 @@ namespace ProjetoHospital.Models
         public string Logradouro { get; set; }
         public string CEP { get; set; }
         public int IdEstado { get; set; }
+        public Estado Estado { get; set; }
+        public Medico Medico { get; set; }
+        public Paciente Paciente { get; set; }
     }
 }

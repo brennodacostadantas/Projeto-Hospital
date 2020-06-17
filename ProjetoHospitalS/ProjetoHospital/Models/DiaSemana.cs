@@ -9,5 +9,6 @@ namespace ProjetoHospital.Models
     {
         public int Id { get; set; }
         public string Nome { get; set; }
+        public virtual IList<Atendimento> Atendimentos { get; set; }
     }
 }

@@ -1,13 +1,17 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ProjetoHospital.Models.Context;
 
 namespace ProjetoHospital
 {
@@ -24,6 +28,9 @@ namespace ProjetoHospital
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<ModelContext>(options => options.UseSqlServer(
+                Configuration.GetConnectionString("ProjetoHospitalContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +58,18 @@ namespace ProjetoHospital
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
+
+            var supportedCultures = new[]
+            {
+                new CultureInfo("pt-Br")
+            };
+
+            app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("pt-Br"),
+                SupportedCultures = supportedCultures,
+                SupportedUICultures = supportedCultures
             });
         }
     }

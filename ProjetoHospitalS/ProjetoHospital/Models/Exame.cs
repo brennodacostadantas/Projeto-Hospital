@@ -12,5 +12,7 @@ namespace ProjetoHospital.Models
         public string Descricao { get; set; }
         public float Valor { get; set; }
         public virtual IList<ExamePlano> ExamePlanos { get; set; }
+        public virtual IList<RequisicaoExame> RequisicaoExames { get; set; }
+
     }
 }
